@@ -44,7 +44,6 @@ a{
 /* ================ */
 
 header{
-    padding: 4.5rem 0;
     display: grid;
     place-items: center;
     text-align: center;
