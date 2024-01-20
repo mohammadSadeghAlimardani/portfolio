@@ -27,6 +27,8 @@ links.forEach(link => {
  
     link.addEventListener("click", function(e){
 
+        sidebar.classList.remove("show");
+
         e.preventDefault();
         dataScroll = link.dataset.scroll;
 
