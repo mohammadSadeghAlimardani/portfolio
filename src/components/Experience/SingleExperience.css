@@ -1,0 +1,37 @@
+.single-experience header {
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.single-experience header div h3 {
+    text-transform: capitalize;
+    margin-bottom: 0.25rem;
+}
+.single-experience header div h4 {
+    text-transform: capitalize;
+    color: #939393;
+}
+.single-experience header svg {
+    background-color: #f8f8f8;
+    padding: 0.75rem;
+    border-radius: 50%;
+}
+.single-experience section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.single-experience section span {
+    border-radius: 0.5rem;
+    padding: 0.75rem;
+    background-color: #f8f8f8;
+    border: 1px solid #f6f7ef;
+    color: #797979;
+}
+.single-experience .separate-border {
+    margin-top: 1.75rem;
+    height: 1px;
+    width: 100%;
+    background: linear-gradient(to left, white, rgba(69, 77, 29, 0.4), white);
+}

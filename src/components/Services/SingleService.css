@@ -1,0 +1,16 @@
+.single-service {
+    text-align: center;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    background-color: #203a430d;
+}
+.single-service svg {
+    color: #203a43;
+    font-size: 3rem;
+}
+.single-service h3 {
+    margin: 1rem 0;
+}
+.single-service p {
+    line-height: 1.8;
+}

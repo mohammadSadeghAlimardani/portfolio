@@ -1,0 +1,17 @@
+.about-center {
+    padding: 4rem 0;
+}
+.about-content {
+    padding: 2rem 0;
+}
+.about-image img {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.about-info p {
+    color: #2c5364;
+    text-align: left;
+    line-height: 1.8;
+}

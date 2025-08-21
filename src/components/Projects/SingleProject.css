@@ -1,0 +1,72 @@
+.single-project {
+    border-radius: 0.5rem;
+    position: relative;
+    height: 18rem;
+    box-shadow: 0 0 8px 1px rgba(0, 0, 0, 0.2);
+}
+.single-project img {
+    border-radius: 0.5rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+.single-project .bookmark {
+    position: absolute;
+    background-color: #203a43;
+    color: white;
+    top: 0;
+    right: 0;
+    padding: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    transition: all 0.3s;
+}
+.single-project .favorite {
+    position: absolute;
+    background-color: #203a43;
+    color: white;
+    top: 0;
+    left: 0;
+    padding: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    border-top-left-radius: 0.5rem;
+    transition: all 0.3s;
+}
+.single-project .single-project-info {
+    opacity: 0;
+    transform: translateY(100%);
+    transition: all 0.5s;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 1rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-bottom-left-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+}
+.single-project .single-project-info.show {
+    opacity: 1;
+    z-index: 20;
+    transform: translateY(0);
+}
+.single-project .single-project-info a {
+    text-transform: capitalize;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.single-project .single-project-info a:hover {
+    text-decoration: underline;
+}
+.single-project .single-project-info a svg {
+    border-radius: 0.5rem;
+    font-size: 1.15rem;
+    padding: 0.5rem;
+    background-color: #0c1e57;
+}
