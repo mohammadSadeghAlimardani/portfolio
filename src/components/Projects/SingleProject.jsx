@@ -21,12 +21,12 @@ const SingleProject = (props) => {
                 <p>{description}</p>
                 <ul>
                     <li>
-                        <a href={websiteURL}>
+                        <a href={websiteURL} target="_blank">
                             <TbWorldWww />
                         </a>
                     </li>
                     <li>
-                        <a href={githubURL}>
+                        <a href={githubURL} target="_blank">
                             <FaGithubSquare />
                         </a>
                     </li>
