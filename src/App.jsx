@@ -1,5 +1,6 @@
 import "./App.css";
 import About from "./components/About/About";
+import Skills from "./components/Skills/Skills";
 import Contact from "./components/Contact/Contact";
 import Experience from "./components/Experience/Experience";
 import Footer from "./components/Footer/Footer";
@@ -14,6 +15,7 @@ const App = () => {
             <Navbar />
             <Hero />
             <About />
+            <Skills />
             <Services />
             <Contact />
             <Projects />

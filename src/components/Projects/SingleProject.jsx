@@ -2,14 +2,16 @@ import "./SingleProject.css";
 import { FaGithubSquare } from "react-icons/fa";
 import { TbWorldWww } from "react-icons/tb";
 import { MdFavorite } from "react-icons/md";
+import { IoGameController } from "react-icons/io5";
 
 const SingleProject = (props) => {
     const {
         skills,
-        favorite,
-        image,
+        isGame,
         titleProject,
+        image,
         websiteURL,
+        favorite,
         githubURL,
         description,
     } = props;
@@ -19,6 +21,7 @@ const SingleProject = (props) => {
             <section>
                 <h3>{titleProject}</h3>
                 <p>{description}</p>
+                <h5>skills : {skills.join(", ")}</h5>
                 <ul>
                     <li>
                         <a href={websiteURL} target="_blank">
@@ -33,6 +36,13 @@ const SingleProject = (props) => {
                     {favorite ? (
                         <li>
                             <MdFavorite />
+                        </li>
+                    ) : (
+                        ""
+                    )}
+                    {isGame ? (
+                        <li>
+                            <IoGameController />
                         </li>
                     ) : (
                         ""

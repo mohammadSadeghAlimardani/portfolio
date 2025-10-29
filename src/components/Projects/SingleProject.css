@@ -22,6 +22,10 @@
 .single-project section p {
     text-align: justify;
     line-height: 1.4;
+    margin-bottom: 1.25rem;
+}
+.single-project section h5 {
+    color: var(--info-500);
 }
 .single-project section ul {
     position: absolute;

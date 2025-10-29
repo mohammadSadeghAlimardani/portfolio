@@ -1,0 +1,13 @@
+.single-skill {
+    border-radius: 0.5rem;
+}
+.single-skill svg {
+    font-size: 4rem;
+}
+.single-skill h3 {
+    font-weight: bold;
+    margin: 1rem 0;
+}
+.single-skill p {
+    line-height: 1.8;
+}
