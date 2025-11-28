@@ -4,7 +4,7 @@ import SingleProject from "./SingleProject";
 import Loading from "../../assets/Loading";
 import Error from "../../assets/Error";
 import { useEffect, useState } from "react";
-const url = "https://api.jsonbin.io/v3/b/68a1ba2d43b1c97be9207ce0";
+const url = "https://api.npoint.io/4394c880b9435d9c5ebd";
 
 const Projects = () => {
     const [projects, setProjects] = useState([]);
