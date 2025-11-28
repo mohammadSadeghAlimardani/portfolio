@@ -14,7 +14,6 @@ const Projects = () => {
         try {
             let response = await fetch(url);
             let data = await response.json();
-            data = data.record;
             setProjects(data);
         } catch (error) {
             console.log(error);
