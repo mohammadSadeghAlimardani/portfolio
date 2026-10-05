@@ -13,7 +13,7 @@ const Contact = () => {
                 </p>
                 <span className="email-container">
                     <MdOutlineMail />
-                    mv818179@gmail.com
+                    sadegh575615@gmail.com
                 </span>
                 <ul className="social-icons">
                     {socialIcons.map((socialIcon) => {
