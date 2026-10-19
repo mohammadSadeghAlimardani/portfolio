@@ -15,6 +15,7 @@ const Projects = () => {
             let response = await fetch(url);
             let data = await response.json();
             setProjects(data);
+            console.log(data);
         } catch (error) {
             console.log(error);
             setIsError(true);

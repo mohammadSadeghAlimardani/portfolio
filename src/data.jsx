@@ -1,5 +1,7 @@
 import { nanoid } from "nanoid";
 import { FaTelegram } from "react-icons/fa";
+import { FaFacebook } from "react-icons/fa";
+import { FaWhatsapp } from "react-icons/fa";
 import { FaMobileAlt } from "react-icons/fa";
 import { BsGlobe2 } from "react-icons/bs";
 import { GrFingerPrint } from "react-icons/gr";
@@ -51,7 +53,17 @@ const socialIcons = [
     {
         socialIconID: nanoid(),
         icon: <FaTelegram />,
-        url: "https://t.me/Ms138119$",
+        url: "https://t.me/sadegh575615",
+    },
+    {
+        socialIconID: nanoid(),
+        icon: <FaFacebook />,
+        url: "https://www.facebook.com/profile.php?id=61594670943886",
+    },
+    {
+        socialIconID: nanoid(),
+        icon: <FaWhatsapp />,
+        url: "https://wa.me/sadegh575615",
     },
 ];
 export { socialIcons };
