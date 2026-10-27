@@ -57,11 +57,6 @@ const socialIcons = [
     },
     {
         socialIconID: nanoid(),
-        icon: <FaFacebook />,
-        url: "https://www.facebook.com/profile.php?id=61594670943886",
-    },
-    {
-        socialIconID: nanoid(),
         icon: <FaWhatsapp />,
         url: "https://wa.me/sadegh575615",
     },
